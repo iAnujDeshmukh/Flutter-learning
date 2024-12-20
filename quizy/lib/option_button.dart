@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class OptionButton extends StatelessWidget {
-  OptionButton({required this.text, required this.onClickFunction, super.key});
+  const OptionButton(
+      {required this.text, required this.onClickFunction, super.key});
 
   final String text;
   final void Function() onClickFunction;

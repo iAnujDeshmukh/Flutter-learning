@@ -73,10 +73,10 @@ class StartScreen extends StatelessWidget {
                 ],
               ),
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              child: Row(
+              child: const Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  const Text(
+                  Text(
                     "Start the Quiz!",
                     style: TextStyle(
                       fontSize: 18,
@@ -84,8 +84,8 @@ class StartScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(width: 8),
-                  const Icon(
+                  SizedBox(width: 8),
+                  Icon(
                     Icons.arrow_right_alt,
                     color: Colors.white,
                   ),

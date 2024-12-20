@@ -5,6 +5,8 @@ import 'dart:math';
 var activeImage = "assets/images/dice-1.png";
 
 class DiceRoller extends StatefulWidget {
+  const DiceRoller({super.key});
+
   //there is no default constructor
   @override
   State<DiceRoller> createState() {
@@ -23,11 +25,11 @@ class _DiceRollerState extends State<DiceRoller> {
         TextButton(
             onPressed: rollDiceFunction,
             style: TextButton.styleFrom(
-              padding: EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 20),
               foregroundColor: Colors.white,
               textStyle: const TextStyle(fontSize: 28, color: Colors.white),
             ),
-            child: Text("Hello"))
+            child: const Text("Hello"))
       ],
     );
   }

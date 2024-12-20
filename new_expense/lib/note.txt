@@ -1,0 +1,7 @@
+double getTotalExpense(String category) {
+  return expenses[category]?.fold(0.0, (sum, expense) {
+        final amount = double.tryParse(expense['amount'] ?? '0') ?? 0.0;
+        return sum! + amount;
+      }) ??
+      0.0;
+}

@@ -41,7 +41,8 @@ class _QuoteReaderState extends State<QuoteReader> {
             child: Center(
               child: Text(
                 quotesList[randomQuoteIndex],
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
             ),
           ),

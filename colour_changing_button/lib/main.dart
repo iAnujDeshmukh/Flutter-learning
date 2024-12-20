@@ -3,7 +3,7 @@ import 'package:colour_changing_button/gradientColourstateful.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
           body:
               //custom Widget

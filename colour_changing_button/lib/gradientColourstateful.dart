@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 class GradientBackgroundStateful extends StatefulWidget {
+  const GradientBackgroundStateful({super.key});
+
   @override
   State<GradientBackgroundStateful> createState() {
     return _GradientColourStatefulState();
@@ -31,7 +33,7 @@ class _GradientColourStatefulState extends State<GradientBackgroundStateful> {
             changeColor();
             print("Button Pressed!");
           },
-          child: Text("Press me"),
+          child: const Text("Press me"),
         ),
       ),
     );

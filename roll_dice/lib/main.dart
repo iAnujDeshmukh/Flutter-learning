@@ -3,9 +3,9 @@ import 'package:roll_dice/gradientBackgorund.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-          body: GradientBackground(colours: const [Colors.red, Colors.white])),
+          body: GradientBackground(colours: [Colors.red, Colors.white])),
     ),
   );
 }

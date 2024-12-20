@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quizy/option_button.dart';
 import 'package:quizy/questions.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -94,7 +93,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                         BoxShadow(
                           color: Colors.black.withOpacity(0.2),
                           blurRadius: 8,
-                          offset: Offset(0, 4),
+                          offset: const Offset(0, 4),
                         ),
                       ],
                     ),

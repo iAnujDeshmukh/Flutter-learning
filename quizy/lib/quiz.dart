@@ -5,6 +5,8 @@ import 'package:quizy/questions.dart';
 import 'package:quizy/result_screen.dart';
 
 class Quiz extends StatefulWidget {
+  const Quiz({super.key});
+
   @override
   State<Quiz> createState() {
     return _QuizState();
